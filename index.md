@@ -50,20 +50,33 @@ Contact: s0ny@korea.ac.kr
 ### International Conference
 * GRASP: Guiding model with RelAtional Semantics using Prompt (**Oral Presentation**) <br/> 
 <span style="color:rgb(73, 120, 173)"> The 29th International Conference on Computational Linguistics (COLING 2022) </span> <br/> 
-Junyoung Son[\*], Jinsung Kim[\*], **Jungwoo Lim**[\*], and Heuiseok Lim (*: equal contributions)   
+**Junyoung Son[\*]**, Jinsung Kim[\*], Jungwoo Lim[\*], and Heuiseok Lim (*: equal contributions)   
 <br/> 
 * KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks <br/> 
 <span style="color:rgb(73, 120, 173)"> The 29th International Conference on Computational Linguistics (COLING 2022) </span> <br/> 
-Gyungmin Kim[\*], Jinsung Kim[\*], Junyoung Son[\*], and Heuiseok Lim (*: equal contributions)
+Gyungmin Kim[\*], Jinsung Kim[\*], **Junyoung Son[\*]**, and Heuiseok Lim (*: equal contributions)
 <br/>
 
+### International Journal
+* AI for Patents: A Novel yet Effective and Efficient Framework for Patent Analysis <br/> 
+<span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 10, pp. 59205-59218, 2022 </span> <br/> 
+**Junyoung Son**, Hyeonseok Moon, Jeongwoo Lee, Seolhwa Lee, Chanjun Park, Wonkyung Jung and Heuiseok Lim   
+<br/> 
+* Enhancing Korean Named Entity Recognition With Linguistic Tokenization Strategies <br/> 
+<span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 9, pp. 151814-151823, 2021 </span> <br/> 
+Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuiseok Lim (*: equal contributions)
+<br/> 
 
-[//]: # (### Domestic Conference)
-[//]: # (* Analysis on Question Understanding of Language Models using Clever Hans Tests <br/> )
-[//]: # (<span style="color:rgb&#40;73, 120, 173&#41;"> The 33rd Annual Conference on Human & Cognitive Language Technology &#40;HCLT 2021&#41; </span> <br/>)
-[//]: # (**Jungwoo Lim**, Donsuk Oh, Sungjin Park, Taesun Whang, Midan Shim, Suhyune Son, Yujin Kim and Heuiseok Lim <br/>)
-[//]: # ()
-[//]: # (### Domestic Journal)
-[//]: # (* [An Automated Industry and Occupation Coding System using Deep Learning]&#40;https://www.koreascience.or.kr/article/JAKO202113759910436.pdf&#41; <br/> )
-[//]: # (<span style="color:rgb&#40;73, 120, 173&#41;"> Journal of the Korea Convergence Society </span> <br/>)
-[//]: # (**Jungwoo Lim**, Hyeonseok Moon, Chanhee Lee, Chankyun Woo and Heuiseok Lim)
+
+### Domestic Conference
+* Categorization and Analysis of Error Types in the Korean Speech Recognition System <br/> 
+<span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
+**Junyoung Son**, Chanjun Park, Jaehyung Seo, and Heuiseok Lim <br/>
+<br />
+* An Effective Segmentation Scheme for Korean Sentence Classification tasks <br/> 
+<span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
+Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim <br/>
+### Domestic Journal
+* A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks <br/> 
+<span style="color:rgb(73, 120, 173)"> Journal of the Korea Convergence Society </span> <br/>
+Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, Jeongbae Park, and Heuiseok Lim
