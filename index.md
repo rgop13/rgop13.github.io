@@ -17,7 +17,7 @@ Contact: s0ny@korea.ac.kr
  
 
 # Research Intereset
-* Relation Extraction
+* Information Extraction
 * Dialogue System
 * Vision & Language
 * Visual Reasoning
