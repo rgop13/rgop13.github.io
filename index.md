@@ -24,8 +24,7 @@ Contact: s0ny@korea.ac.kr
 * Relation Extraction
 * Dialogue System
 * Vision & Language
-* Visual Reasoning 
-
+* Visual Reasoning
 <br/>
 
 # Education
@@ -33,17 +32,7 @@ Contact: s0ny@korea.ac.kr
   * M.S & Ph.D in Computer Science & Engineering
 
 * Dongguk University (2014/03 ~ 2021/02)
-  * B.S in Information & Communication Engineering 
-
-<br/>
-
-
-[//]: # (# Awards and Honors)
-[//]: # (* The Tenth Dialog System Technology Challenge &#40;DSTC10&#41;, **3rd place** in Subtask 1, Track 2 Knowledge-grounded Task-oriented Dialogue Modeling on Spoken Conversations)
-[//]: # (* The 8th Financial Style Visualization Competition using KCB Data&#40;Korea Credit Bureau&#41;, 5th place&#40;2019.08&#41;)
-[//]: # (* The 5th L.POINT Big Data Competition, Excellence award &#40;2019.02&#41;  )
-[//]: # (* The 4th Meteorological Agency Big Data Contest, Encouragement award &#40;2018.08&#41;   )
-
+  * B.S in Information & Communication Engineering
 <br/>
 
 # Publication
