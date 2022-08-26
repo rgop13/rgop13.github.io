@@ -15,9 +15,9 @@ Contact: s0ny@korea.ac.kr
 
 # News 
 
-08/2022     "GRASP: Guiding model with RelAtional Semantics using Prompt" is accepted at COLING 2022
-08/2022     "KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks" is accepted at COLING 2022
-07/2022     Invited to server as a Reviewer for EMNLP 2022
+* 08/2022     "GRASP: Guiding model with RelAtional Semantics using Prompt" is accepted at COLING 2022
+* 08/2022     "KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks" is accepted at COLING 2022
+* 07/2022     Invited to server as a Reviewer for EMNLP 2022
  
 
 # Research Intereset
