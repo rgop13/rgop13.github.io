@@ -57,6 +57,7 @@ Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuis
 <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
 **Junyoung Son**, Chanjun Park, Jaehyung Seo, and Heuiseok Lim 
 <br/>
+<br/>
 * An Effective Segmentation Scheme for Korean Sentence Classification tasks <br/> 
 <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
 Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
