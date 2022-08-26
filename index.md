@@ -15,7 +15,7 @@ Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 * 07/2022     Invited to server as a Reviewer for EMNLP 2022
  
 
-# Research Intereset
+# Research Interest
 * Information Extraction
 * Dialogue System
 * Vision & Language
