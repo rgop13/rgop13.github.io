@@ -6,7 +6,7 @@ layout: about
 I'm interested in Information Extraction and Dialogue System.
 Currently, I am a graduate student and advised by Prof. [Heuiseok Lim](https://scholar.google.co.kr/citations?user=HMTkz7oAAAAJ&hl=ko&oi=ao)  in the [NLP & AI Lab](http://nlp.korea.ac.kr/). 
 
-Contact: s0ny@korea.ac.kr
+Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 <br/>
 
 # News 
