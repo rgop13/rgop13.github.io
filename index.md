@@ -49,18 +49,18 @@ Gyungmin Kim[\*], Jinsung Kim[\*], **Junyoung Son[\*]**, and Heuiseok Lim (*: eq
 <br/> 
 * Enhancing Korean Named Entity Recognition With Linguistic Tokenization Strategies <br/> 
 <span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 9, pp. 151814-151823, 2021 </span> <br/> 
-Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuiseok Lim (*: equal contributions)
+Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuiseok Lim (*: equal contributions) 
 <br/>
 
 ### Domestic Conference
 * Categorization and Analysis of Error Types in the Korean Speech Recognition System <br/> 
 <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
-**Junyoung Son**, Chanjun Park, Jaehyung Seo, and Heuiseok Lim <br/>
-<br />
+**Junyoung Son**, Chanjun Park, Jaehyung Seo, and Heuiseok Lim 
+<br/>
 * An Effective Segmentation Scheme for Korean Sentence Classification tasks <br/> 
 <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
-Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim <br/>
-<br />
+Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+<br/>
 
 ### Domestic Journal
 * A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks <br/> 
