@@ -8,18 +8,19 @@ I'm interested in Information Extraction and Dialogue System. <br /> Currently, 
 Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 <br/>
 
-# News 
+[//]: # (# News )
 
-* 08/2022     "GRASP: Guiding model with RelAtional Semantics using Prompt" is accepted at COLING 2022
-* 08/2022     "KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks" is accepted at COLING 2022
-* 07/2022     Invited to server as a Reviewer for EMNLP 2022
+[//]: # ()
+[//]: # (* 08/2022     "GRASP: Guiding model with RelAtional Semantics using Prompt" is accepted at COLING 2022)
+
+[//]: # (* 08/2022     "KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks" is accepted at COLING 2022)
+
+[//]: # (* 07/2022     Invited to server as a Reviewer for EMNLP 2022)
  
 
 # Research Interest
 * Information Extraction
-* Dialogue System
-* Vision & Language
-* Visual Reasoning
+* Information Retrieval
 <br/>
 
 # Education
@@ -33,13 +34,21 @@ Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 # Publication
 
 ### International Conference
+* Post-hoc Utterance Refining Method by Entity Mining for Faithful Knowledge Grounded Conversations <br/> 
+<span style="color:rgb(73, 120, 173)"> The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) </span> <br/> 
+Yoonna Jang[\*], Suhyune Son[\*], Jeongwoo Lee[\*], **Junyoung Son**, Yuna Hur, Jungwoo Lim, Hyeonseok Moon, Kisu Yang, Heuiseok Lim (*: equal contributions)   
+<br/> 
+* Explore the Way: Exploring Reasoning Path by Bridging Entities for Effective Cross-Document Relation Extraction <br/> 
+<span style="color:rgb(73, 120, 173)"> Findings of the Association for Computational Linguistics: EMNLP 2023 (EMNLP 2023 findings) </span> <br/> 
+**Junyoung Son**, Jinsung Kim, Jungwoo Lim, Yoonna Jang, Heuiseok Lim  
+<br/> 
 * GRASP: Guiding model with RelAtional Semantics using Prompt (**Oral Presentation**) <br/> 
 <span style="color:rgb(73, 120, 173)"> The 29th International Conference on Computational Linguistics (COLING 2022) </span> <br/> 
-**Junyoung Son[\*]**, Jinsung Kim[\*], Jungwoo Lim[\*], and Heuiseok Lim (*: equal contributions)   
+**Junyoung Son[\*]**, Jinsung Kim[\*], Jungwoo Lim[\*], Heuiseok Lim (*: equal contributions)   
 <br/> 
 * KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks <br/> 
 <span style="color:rgb(73, 120, 173)"> The 29th International Conference on Computational Linguistics (COLING 2022) </span> <br/> 
-Gyungmin Kim[\*], Jinsung Kim[\*], **Junyoung Son[\*]**, and Heuiseok Lim (*: equal contributions)
+Gyungmin Kim[\*], Jinsung Kim[\*], **Junyoung Son[\*]**, Heuiseok Lim (*: equal contributions)
 <br/>
 
 ### International Journal
