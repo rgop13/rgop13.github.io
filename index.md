@@ -12,6 +12,7 @@ Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 # Research Interest
 * Information Extraction
 * Information Retrieval
+* Knowledge-Augmented Generation
 <br/>
 
 # Education
@@ -29,7 +30,7 @@ Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 <span style="color:rgb(73, 120, 173)"> The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) </span> <br/> 
 Yoonna Jang[\*], Suhyune Son[\*], Jeongwoo Lee[\*], **Junyoung Son**, Yuna Hur, Jungwoo Lim, Hyeonseok Moon, Kisu Yang, Heuiseok Lim (*: equal contributions)   
 <br/> 
-* [Explore the Way: Exploring Reasoning Path by Bridging Entities for Effective Cross-Document Relation Extraction](https://aclanthology.org/2023.findings-emnlp.0.pdf) <br/> 
+* [Explore the Way: Exploring Reasoning Path by Bridging Entities for Effective Cross-Document Relation Extraction](https://aclanthology.org/2023.findings-emnlp.450/) <br/> 
 <span style="color:rgb(73, 120, 173)"> Findings of the Association for Computational Linguistics: EMNLP 2023 (EMNLP 2023 findings) </span> <br/> 
 **Junyoung Son**, Jinsung Kim, Jungwoo Lim, Yoonna Jang, Heuiseok Lim  
 <br/> 
@@ -43,17 +44,17 @@ Gyungmin Kim[\*], Jinsung Kim[\*], **Junyoung Son[\*]**, Heuiseok Lim (*: equal 
 <br/>
 
 ### International Journal
-* AI for Patents: A Novel yet Effective and Efficient Framework for Patent Analysis <br/> 
+* [AI for Patents: A Novel yet Effective and Efficient Framework for Patent Analysis](https://ieeexplore.ieee.org/document/9779775) <br/> 
 <span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 10, pp. 59205-59218, 2022 </span> <br/> 
 **Junyoung Son**, Hyeonseok Moon, Jeongwoo Lee, Seolhwa Lee, Chanjun Park, Wonkyung Jung and Heuiseok Lim   
 <br/> 
-* Enhancing Korean Named Entity Recognition With Linguistic Tokenization Strategies <br/> 
+* [Enhancing Korean Named Entity Recognition With Linguistic Tokenization Strategies](https://ieeexplore.ieee.org/document/9610031) <br/> 
 <span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 9, pp. 151814-151823, 2021 </span> <br/> 
 Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuiseok Lim (*: equal contributions) 
 <br/>
 
 ### Domestic Conference
-* Categorization and Analysis of Error Types in the Korean Speech Recognition System <br/> 
+* [Categorization and Analysis of Error Types in the Korean Speech Recognition System](https://koreascience.kr/article/CFKO202130060561801.page) <br/> 
 <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
 **Junyoung Son**, Chanjun Park, Jaehyung Seo, and Heuiseok Lim 
 <br/>
@@ -64,6 +65,6 @@ Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
 <br/>
 
 ### Domestic Journal
-* A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks <br/> 
+* [A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks](https://koreascience.kr/article/JAKO202106361937222.page) <br/> 
 <span style="color:rgb(73, 120, 173)"> Journal of the Korea Convergence Society </span> <br/>
 Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, Jeongbae Park, and Heuiseok Lim
