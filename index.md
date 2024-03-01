@@ -44,6 +44,10 @@ Gyungmin Kim[\*], Jinsung Kim[\*], **Junyoung Son[\*]**, Heuiseok Lim (*: equal 
 <br/>
 
 ### International Journal
+* [Prompt Language Learner with Trigger Generation for Dialogue Relation Extraction](https://www.mdpi.com/2076-3417/13/22/12414) <br/> 
+<span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 10, pp. 59205-59218, 2022 </span> <br/> 
+Jinsung Kim, Gyeongmin Kim, Junyoung Son, and Heuiseok Lim   
+<br/> 
 * [AI for Patents: A Novel yet Effective and Efficient Framework for Patent Analysis](https://ieeexplore.ieee.org/document/9779775) <br/> 
 <span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 10, pp. 59205-59218, 2022 </span> <br/> 
 **Junyoung Son**, Hyeonseok Moon, Jeongwoo Lee, Seolhwa Lee, Chanjun Park, Wonkyung Jung and Heuiseok Lim   
@@ -54,15 +58,35 @@ Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuis
 <br/>
 
 ### Domestic Conference
+* [An Analysis of Named Entity Recognition System using MLM-based Language Transfer Learning](https://koreascience.kr/article/CFKO202226455345684.page) <br/>
+  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
+  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+<br/>
+<br/>
+* [Methodology of Trigger Generation optimized for Dialogue Relation Extraction task](https://koreascience.kr/article/CFKO202226455346651.page) <br/>
+  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
+  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+<br/>
+<br/>
+* [A Study on Prompt-based Persona Dialogue Generation](https://koreascience.kr/article/CFKO202226455339475.page) <br/>
+  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
+  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+<br/>
+<br/>
+* [Dialogue Relation Extraction using Dialogue Graph](https://koreascience.kr/article/CFKO202226455346771.page) <br/>
+  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
+  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+<br/>
+<br/>
 * [Categorization and Analysis of Error Types in the Korean Speech Recognition System](https://koreascience.kr/article/CFKO202130060561801.page) <br/> 
 <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
 **Junyoung Son**, Chanjun Park, Jaehyung Seo, and Heuiseok Lim 
 <br/>
 <br/>
-* An Effective Segmentation Scheme for Korean Sentence Classification tasks <br/> 
+* [An Effective Segmentation Scheme for Korean Sentence Classification tasks](https://koreascience.kr/article/CFKO202130060582805.page) <br/> 
 <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
 Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
-<br/>
+
 
 ### Domestic Journal
 * [A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks](https://koreascience.kr/article/JAKO202106361937222.page) <br/> 
