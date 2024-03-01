@@ -60,22 +60,22 @@ Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuis
 ### Domestic Conference
 * [An Analysis of Named Entity Recognition System using MLM-based Language Transfer Learning](https://koreascience.kr/article/CFKO202226455345684.page) <br/>
   <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
-  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+  **Junyoung Son**, Gyeongmin Kim, Jinsung Kim, Yuna Hur, and Heuiseok Lim
 <br/>
 <br/>
 * [Methodology of Trigger Generation optimized for Dialogue Relation Extraction task](https://koreascience.kr/article/CFKO202226455346651.page) <br/>
   <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
-  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+  Gyeongmin Kim, **Junyoung Son**, Jinsung Kim, Jaechoon Jo, and Heuiseok Lim
 <br/>
 <br/>
 * [A Study on Prompt-based Persona Dialogue Generation](https://koreascience.kr/article/CFKO202226455339475.page) <br/>
   <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
-  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+  Yoona Jang, Kisu Yang, Hyeonseok Moon, Jaehyung Seo, Jungwoo Lim, **Junyoung Son**, Chanjun Park, Kinam Park, and Heuiseok Lim
 <br/>
 <br/>
 * [Dialogue Relation Extraction using Dialogue Graph](https://koreascience.kr/article/CFKO202226455346771.page) <br/>
   <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
-  Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
+ Jungwoo Lim, **Junyoung Son**, Jinsung Kim, Yuna Hur, Jaehyung Seo, Yoonna Jang, JeongBae Park, and Heuiseok Lim
 <br/>
 <br/>
 * [Categorization and Analysis of Error Types in the Korean Speech Recognition System](https://koreascience.kr/article/CFKO202130060561801.page) <br/> 
