@@ -26,6 +26,10 @@ Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 # Publication
 
 ### International Conference
+* [Hyper-BTS Dataset: Scalability and Enhanced Analysis of Back TranScription (BTS) for ASR Post-Processing](https://aclanthology.org/2024.findings-eacl.5/) <br/> 
+<span style="color:rgb(73, 120, 173)"> Findings of the Association for Computational Linguistics: EACL 2024 </span> <br/> 
+Chanjun Park, Jaehyung Seo, Seolhwa Lee, **Junyoung Son**, Hyeonseok Moon, Sugyeong Eo, Chanhee Lee, Heuiseok Lim   
+<br/> 
 * [Post-hoc Utterance Refining Method by Entity Mining for Faithful Knowledge Grounded Conversations](https://aclanthology.org/2023.emnlp-main.295/) <br/> 
 <span style="color:rgb(73, 120, 173)"> The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) </span> <br/> 
 Yoonna Jang[\*], Suhyune Son[\*], Jeongwoo Lee[\*], **Junyoung Son**, Yuna Hur, Jungwoo Lim, Hyeonseok Moon, Kisu Yang, Heuiseok Lim (*: equal contributions)   
