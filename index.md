@@ -12,7 +12,8 @@ Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 # Research Interest
 * Information Extraction
 * Information Retrieval
-* Knowledge-Augmented Generation
+* Text Representation
+* Data Engineering
 <br/>
 
 # Education
@@ -152,5 +153,6 @@ Youngjoon Jang, **Junyoung Son**, Taemin Lee, Seongtae Hong, and Heuiseok Lim
   Participation Period: 2024.08 ~ 2024.12
 <br/>
 <br/>
-* **독자 AI 파운데이션 모델 프로젝트: 데이터팀 리더** <br/>
+* **독자 AI 파운데이션 모델 프로젝트: NCAI팀 데이터 리더** <br/>
   Participation Period: 2025.08.01 ~ 2025.12.31
+<br/>
