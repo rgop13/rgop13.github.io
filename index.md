@@ -26,6 +26,10 @@ Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 # Publication
 
 ### International Conference
+* [From Ambiguity to Accuracy: The Transformative Effect of Coreference Resolution on Retrieval-Augmented Generation systems](https://aclanthology.org/2025.acl-srw.27/) <br/>
+<span style="color:rgb(73, 120, 173)"> Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop) </span> <br/>
+Youngjoon Jang, Seongtae Hong, **Junyoung Son**, Sungjin Park, Chanjun Park, and Heuiseok Lim
+<br/>
 * [Hyper-BTS Dataset: Scalability and Enhanced Analysis of Back TranScription (BTS) for ASR Post-Processing](https://aclanthology.org/2024.findings-eacl.5/) <br/> 
 <span style="color:rgb(73, 120, 173)"> Findings of the Association for Computational Linguistics: EACL 2024 </span> <br/> 
 Chanjun Park, Jaehyung Seo, Seolhwa Lee, **Junyoung Son**, Hyeonseok Moon, Sugyeong Eo, Chanhee Lee, Heuiseok Lim   
@@ -62,6 +66,20 @@ Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuis
 <br/>
 
 ### Domestic Conference
+* [Database retrieval augmented generation framework leveraging Large reasoning language models and Schema linking methods](https://www.koreascience.kr/article/CFKO202533861229980.view?hide=breadcrumb%2Cjournalinfo&orgId=anpor) <br/>
+  <span style="color:rgb(73, 120, 173)"> Annual Conference on Human and Language Technology (HCLT 2025), pp. 77-82 </span> <br/>
+  Myunghoon Kang, **Junyoung Son**, Chanhee Park, Aram So, and Heuiseok Lim
+<br/>
+<br/>
+* [KURE: Embedding Model for Korean-Specific Retrieval](https://www.koreascience.kr/article/CFKO202533761230731.view?hide=breadcrumb%2Cjournalinfo&orgId=anpor) <br/>
+  <span style="color:rgb(73, 120, 173)"> Annual Conference on Human and Language Technology (HCLT 2025), pp. 129-134 </span> <br/>
+  Youngjoon Jang, **Junyoung Son**, Taemin Lee, Seongtae Hong, JeongBae Park, and Heuiseok Lim
+<br/>
+<br/>
+* [KomuRet: Korean Community-style Retrieval Benchmark](https://www.koreascience.kr/article/CFKO202533757619425.page) <br/>
+  <span style="color:rgb(73, 120, 173)"> Annual Conference on Human and Language Technology (HCLT 2025), pp. 619-624 </span> <br/>
+  **Junyoung Son**, Youngjoon Jang, Taemin Lee, SeongTae Hong, Yuna Hur, and Heuiseok Lim
+<br/>
 * [An Analysis of Named Entity Recognition System using MLM-based Language Transfer Learning](https://koreascience.kr/article/CFKO202226455345684.page) <br/>
   <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
   **Junyoung Son**, Gyeongmin Kim, Jinsung Kim, Yuna Hur, and Heuiseok Lim
@@ -96,6 +114,13 @@ Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
 * [A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks](https://koreascience.kr/article/JAKO202106361937222.page) <br/> 
 <span style="color:rgb(73, 120, 173)"> Journal of the Korea Convergence Society </span> <br/>
 Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, Jeongbae Park, and Heuiseok Lim
+
+
+### Preprint
+* [Improving Korean-English Cross-Lingual Retrieval: A Data-Centric Study of Language Composition and Model Merging](https://arxiv.org/abs/2507.08480) <br/>
+<span style="color:rgb(73, 120, 173)"> arXiv, 2025 </span> <br/>
+Youngjoon Jang, **Junyoung Son**, Taemin Lee, Seongtae Hong, and Heuiseok Lim
+<br/>
 
 
 ### Project
