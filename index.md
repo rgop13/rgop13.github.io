@@ -96,3 +96,36 @@ Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
 * [A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks](https://koreascience.kr/article/JAKO202106361937222.page) <br/> 
 <span style="color:rgb(73, 120, 173)"> Journal of the Korea Convergence Society </span> <br/>
 Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, Jeongbae Park, and Heuiseok Lim
+
+
+### Project
+* **실감형 문화유산 체험을 위한 애셋 기반 지능형 큐레이션 및 서비스 운영기술 개발: 지식 기반 관계 네트워크 생성을 위한 텍스트 마이닝 연구** <br/>
+  Participation Period: 2021.04.01 ~ 2022.12.31
+<br/>
+<br/>
+* **전문지식 대상 판단결과의 이유/근거를 설명가능한 전문가 의사 결정 지원 인공지능 기술개발: 기관 PM** <br/>
+  Participation Period: 2021.04 ~ Present
+<br/>
+<br/>
+* **특허 문서의 발명 목적 문장 추출 및 Key phrase 추출 기술 개발** <br/>
+  Participation Period: 2021.06.01 ~ 2021.10.31
+<br/>
+<br/>
+* **삼성 모바일 제품 디자인 분석 기술 개발** <br/>
+  Participation Period: 2022.08 ~ 2022.12
+<br/>
+<br/>
+* **영화 추천시스템 개발을 위한 메타데이터 증강 및 구조화 기술 개발** <br/>
+  Participation Period: 2023.02 ~ 2023.05
+<br/>
+<br/>
+* **벡터 임베딩 구축과 유사도 검색 원천기술 개발** <br/>
+  Participation Period: 2024.01.01 ~ 2024.12.31
+<br/>
+<br/>
+* **KURE: Korea University Retrieval Embedding Model 개발** <br/>
+  Participation Period: 2024.08 ~ 2024.12
+<br/>
+<br/>
+* **독자 AI 파운데이션 모델 프로젝트: 데이터팀 리더** <br/>
+  Participation Period: 2025.08.01 ~ 2025.12.31
