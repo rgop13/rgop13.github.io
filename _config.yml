@@ -11,32 +11,6 @@ author:
   email: s0ny@korea.ac.kr
   selfie: assets/img/profile3.jpeg
 
-# social
-social:
-  email:
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: rgop13
-  google_plus:
-  instagram:
-  keybase:
-  linkedin: https://www.linkedin.com/in/junyoung-son-2836a2183/
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:
-  steam:
-  tumblr:
-  gitlab:
-  twitter:
-  vimeo:
-  wordpress:
-  youtube:
-  default_txt: "Follow On"
-
 # Build settings
 markdown: kramdown
 
@@ -45,14 +19,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Gems
-plugins:
-  - jekyll-paginate
-
-# Permalinks
-permalink: /:year-:month-:day/:title
-#paginate_path: "/portfolio/page:num/"
-#paginate: 5
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
@@ -61,6 +27,7 @@ exclude:
   - "README.md"
   - "CLAUDE.md"
   - "docs"
-  - "screenshot.png"
+  - "scripts"
   - "vendor"
   - ".bundle"
+  - "screenshot.png"
