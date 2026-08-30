@@ -58,5 +58,7 @@ exclude:
   - "Gemfile.lock"
   - "*.gem"
   - "LICENSE"
-  - "READE.md"
+  - "README.md"
+  - "CLAUDE.md"
+  - "docs"
   - "screenshot.png"
