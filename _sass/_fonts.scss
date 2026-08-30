@@ -1,0 +1,19 @@
+@mixin face($family, $file, $weight, $style: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('/assets/webfonts/#{$file}.woff2') format('woff2');
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@include face('STIX Two Text', 'stix-two-text-400', 400);
+@include face('STIX Two Text', 'stix-two-text-400i', 400, italic);
+@include face('STIX Two Text', 'stix-two-text-600', 600);
+@include face('STIX Two Text', 'stix-two-text-700', 700);
+@include face('IBM Plex Sans', 'ibm-plex-sans-400', 400);
+@include face('IBM Plex Sans', 'ibm-plex-sans-500', 500);
+@include face('IBM Plex Sans', 'ibm-plex-sans-600', 600);
+@include face('IBM Plex Mono', 'ibm-plex-mono-400', 400);
+@include face('IBM Plex Mono', 'ibm-plex-mono-600', 600);
