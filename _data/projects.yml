@@ -1,23 +1,73 @@
+# 프로젝트 항목 스키마 - 빈 필드("" 또는 [])는 화면에 렌더링되지 않습니다.
+#   title:     프로젝트명 (필수, 한글 그대로)
+#   period:    참여 기간 (필수)
+#   role:      담당 역할 한 줄
+#   purpose:   프로젝트 목적 한두 문장
+#   overview:  자세한 설명 - 마크다운 지원, 여러 문단은 "overview: |" 블록으로 작성
+#   learnings: 배운 점 리스트
+#   stack:     기술 키워드 리스트 (칩으로 표시)
+#   links:     [{ label: 이름, url: 주소 }] - 데모/레포/보고서 링크
 - title: "독자 AI 파운데이션 모델 프로젝트: NCAI팀 데이터 리더"
   period: "2025.08.01 ~ 2025.12.31"
-
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []
 - title: "KURE: Korea University Retrieval Embedding Model 개발"
   period: "2024.08 ~ 2024.12"
-
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []
 - title: "벡터 임베딩 구축과 유사도 검색 원천기술 개발"
   period: "2024.01.01 ~ 2024.12.31"
-
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []
 - title: "영화 추천시스템 개발을 위한 메타데이터 증강 및 구조화 기술 개발"
   period: "2023.02 ~ 2023.05"
-
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []
 - title: "삼성 모바일 제품 디자인 분석 기술 개발"
   period: "2022.08 ~ 2022.12"
-
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []
 - title: "전문지식 대상 판단결과의 이유/근거를 설명가능한 전문가 의사 결정 지원 인공지능 기술개발: 기관 PM"
   period: "2021.04 ~ Present"
-
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []
 - title: "특허 문서의 발명 목적 문장 추출 및 Key phrase 추출 기술 개발"
   period: "2021.06.01 ~ 2021.10.31"
-
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []
 - title: "실감형 문화유산 체험을 위한 애셋 기반 지능형 큐레이션 및 서비스 운영기술 개발: 지식 기반 관계 네트워크 생성을 위한 텍스트 마이닝 연구"
   period: "2021.04.01 ~ 2022.12.31"
+  role: ""
+  purpose: ""
+  overview: ""
+  learnings: []
+  stack: []
+  links: []

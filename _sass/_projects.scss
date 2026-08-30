@@ -1,21 +1,28 @@
-.proj-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.proj-list {
+  display: flex;
+  flex-direction: column;
   gap: 1.25rem;
 }
 
 .proj-card {
   border: 1px solid var(--hairline);
   border-radius: var(--radius);
-  padding: 1.25rem 1.4rem;
+  padding: 1.4rem 1.6rem;
+}
+
+.proj-card__head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.35rem 1.5rem;
+  align-items: baseline;
 }
 
 .proj-card__title {
   font-family: var(--font-sans);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.5;
-  margin-bottom: 0.7rem;
+  margin: 0;
 }
 
 .proj-card__period {
@@ -23,8 +30,95 @@
   font-size: 0.8rem;
   color: var(--ink-soft);
   margin: 0;
+  white-space: nowrap;
 }
 
-@media (max-width: 767px) {
-  .proj-grid { grid-template-columns: 1fr; }
+// templated detail fields; rendered only when the yaml field is filled
+.proj-field {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.proj-card__head + .proj-field {
+  border-top: 1px solid var(--hairline);
+  padding-top: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.proj-field__label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  padding-top: 0.25em;
+}
+
+.proj-field__body {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0;
+
+  p {
+    margin: 0 0 0.6rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.proj-field .chips {
+  margin: 0;
+}
+
+.proj-learnings {
+  li {
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 0.35rem;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.75em;
+    width: 0.4rem;
+    height: 1px;
+    background: var(--accent);
+  }
+}
+
+.proj-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+
+  a {
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 639px) {
+  .proj-card {
+    padding: 1.2rem 1.25rem;
+  }
+
+  .proj-card__head {
+    grid-template-columns: 1fr;
+  }
+
+  .proj-field {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
 }

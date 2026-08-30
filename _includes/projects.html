@@ -1,11 +1,55 @@
 <section class="section" id="projects" aria-labelledby="projects-heading">
   <div class="wrap">
     <h2 class="section__heading" id="projects-heading">Projects</h2>
-    <ul class="proj-grid">
+    <ul class="proj-list">
       {% for p in site.data.projects %}
       <li class="proj-card" data-reveal>
-        <p class="proj-card__title" lang="ko">{{ p.title }}</p>
-        <p class="proj-card__period">{{ p.period }}</p>
+        <div class="proj-card__head">
+          <h3 class="proj-card__title" lang="ko">{{ p.title }}</h3>
+          <p class="proj-card__period">{{ p.period }}</p>
+        </div>
+        {% if p.role and p.role != "" %}
+        <div class="proj-field">
+          <span class="proj-field__label">Role</span>
+          <div class="proj-field__body" lang="ko">{{ p.role }}</div>
+        </div>
+        {% endif %}
+        {% if p.purpose and p.purpose != "" %}
+        <div class="proj-field">
+          <span class="proj-field__label">Purpose</span>
+          <div class="proj-field__body" lang="ko">{{ p.purpose }}</div>
+        </div>
+        {% endif %}
+        {% if p.overview and p.overview != "" %}
+        <div class="proj-field">
+          <span class="proj-field__label">Overview</span>
+          <div class="proj-field__body" lang="ko">{{ p.overview | markdownify }}</div>
+        </div>
+        {% endif %}
+        {% if p.learnings and p.learnings.size > 0 %}
+        <div class="proj-field">
+          <span class="proj-field__label">Learnings</span>
+          <ul class="proj-field__body proj-learnings" lang="ko">
+            {% for item in p.learnings %}<li>{{ item }}</li>{% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if p.stack and p.stack.size > 0 %}
+        <div class="proj-field">
+          <span class="proj-field__label">Stack</span>
+          <ul class="proj-field__body chips">
+            {% for item in p.stack %}<li class="chip">{{ item }}</li>{% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if p.links and p.links.size > 0 %}
+        <div class="proj-field">
+          <span class="proj-field__label">Links</span>
+          <ul class="proj-field__body proj-links">
+            {% for l in p.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}
+          </ul>
+        </div>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>
