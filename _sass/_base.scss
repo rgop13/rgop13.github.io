@@ -68,8 +68,7 @@ section[id] { scroll-margin-top: 5rem; }
   margin-bottom: 2rem;
 }
 
-.section__heading + .section__heading,
-.pub-group + .section__heading { margin-top: 4rem; }
+.pubs-selected + .section__heading { margin-top: 4rem; }
 
 .prose {
   max-width: 70ch;
