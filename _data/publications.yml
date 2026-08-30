@@ -1,0 +1,317 @@
+- id: coref-rag-acl2025
+  selected: true
+  group: intl-conference
+  title: "From Ambiguity to Accuracy: The Transformative Effect of Coreference Resolution on Retrieval-Augmented Generation systems"
+  url: https://aclanthology.org/2025.acl-srw.27/
+  venue: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)"
+  venue_short: ACL
+  year: 2025
+  tags: [SRW]
+  authors:
+    - { name: Youngjoon Jang }
+    - { name: Seongtae Hong }
+    - { name: Junyoung Son, me: true }
+    - { name: Sungjin Park }
+    - { name: Chanjun Park }
+    - { name: Heuiseok Lim }
+
+- id: hyperbts-eacl2024
+  selected: false
+  group: intl-conference
+  title: "Hyper-BTS Dataset: Scalability and Enhanced Analysis of Back TranScription (BTS) for ASR Post-Processing"
+  url: https://aclanthology.org/2024.findings-eacl.5/
+  venue: "Findings of the Association for Computational Linguistics: EACL 2024"
+  venue_short: EACL
+  venue_note: Findings
+  year: 2024
+  authors:
+    - { name: Chanjun Park }
+    - { name: Jaehyung Seo }
+    - { name: Seolhwa Lee }
+    - { name: Junyoung Son, me: true }
+    - { name: Hyeonseok Moon }
+    - { name: Sugyeong Eo }
+    - { name: Chanhee Lee }
+    - { name: Heuiseok Lim }
+
+- id: posthoc-emnlp2023
+  selected: true
+  group: intl-conference
+  title: "Post-hoc Utterance Refining Method by Entity Mining for Faithful Knowledge Grounded Conversations"
+  url: https://aclanthology.org/2023.emnlp-main.295/
+  venue: "The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)"
+  venue_short: EMNLP
+  year: 2023
+  authors:
+    - { name: Yoonna Jang, equal: true }
+    - { name: Suhyune Son, equal: true }
+    - { name: Jeongwoo Lee, equal: true }
+    - { name: Junyoung Son, me: true }
+    - { name: Yuna Hur }
+    - { name: Jungwoo Lim }
+    - { name: Hyeonseok Moon }
+    - { name: Kisu Yang }
+    - { name: Heuiseok Lim }
+
+- id: exploretheway-emnlp2023
+  selected: true
+  group: intl-conference
+  title: "Explore the Way: Exploring Reasoning Path by Bridging Entities for Effective Cross-Document Relation Extraction"
+  url: https://aclanthology.org/2023.findings-emnlp.450/
+  venue: "Findings of the Association for Computational Linguistics: EMNLP 2023 (EMNLP 2023 findings)"
+  venue_short: EMNLP
+  venue_note: Findings
+  year: 2023
+  authors:
+    - { name: Junyoung Son, me: true }
+    - { name: Jinsung Kim }
+    - { name: Jungwoo Lim }
+    - { name: Yoonna Jang }
+    - { name: Heuiseok Lim }
+
+- id: grasp-coling2022
+  selected: true
+  group: intl-conference
+  title: "GRASP: Guiding model with RelAtional Semantics using Prompt"
+  url: https://aclanthology.org/2022.coling-1.33/
+  venue: "The 29th International Conference on Computational Linguistics (COLING 2022)"
+  venue_short: COLING
+  year: 2022
+  tags: [oral]
+  authors:
+    - { name: Junyoung Son, me: true, equal: true }
+    - { name: Jinsung Kim, equal: true }
+    - { name: Jungwoo Lim, equal: true }
+    - { name: Heuiseok Lim }
+
+- id: kochet-coling2022
+  selected: false
+  group: intl-conference
+  title: "KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks"
+  url: https://aclanthology.org/2022.coling-1.308/
+  venue: "The 29th International Conference on Computational Linguistics (COLING 2022)"
+  venue_short: COLING
+  year: 2022
+  authors:
+    - { name: Gyungmin Kim, equal: true }
+    - { name: Jinsung Kim, equal: true }
+    - { name: Junyoung Son, me: true, equal: true }
+    - { name: Heuiseok Lim }
+
+- id: promptlearner-applsci2023
+  selected: false
+  group: intl-journal
+  title: "Prompt Language Learner with Trigger Generation for Dialogue Relation Extraction"
+  url: https://www.mdpi.com/2076-3417/13/22/12414
+  venue: "Applied Sciences, 13(22), 12414, 2023"
+  venue_short: Appl. Sci.
+  year: 2023
+  authors:
+    - { name: Jinsung Kim }
+    - { name: Gyeongmin Kim }
+    - { name: Junyoung Son, me: true }
+    - { name: Heuiseok Lim }
+
+- id: patents-ieee2022
+  selected: true
+  group: intl-journal
+  title: "AI for Patents: A Novel yet Effective and Efficient Framework for Patent Analysis"
+  url: https://ieeexplore.ieee.org/document/9779775
+  venue: "IEEE Access, vol. 10, pp. 59205-59218, 2022"
+  venue_short: IEEE Access
+  year: 2022
+  authors:
+    - { name: Junyoung Son, me: true }
+    - { name: Hyeonseok Moon }
+    - { name: Jeongwoo Lee }
+    - { name: Seolhwa Lee }
+    - { name: Chanjun Park }
+    - { name: Wonkyung Jung }
+    - { name: Heuiseok Lim }
+
+- id: korean-ner-ieee2021
+  selected: false
+  group: intl-journal
+  title: "Enhancing Korean Named Entity Recognition With Linguistic Tokenization Strategies"
+  url: https://ieeexplore.ieee.org/document/9610031
+  venue: "IEEE Access, vol. 9, pp. 151814-151823, 2021"
+  venue_short: IEEE Access
+  year: 2021
+  authors:
+    - { name: Gyeongmin Kim, equal: true }
+    - { name: Junyoung Son, me: true, equal: true }
+    - { name: Jinsung Kim, equal: true }
+    - { name: Hyunhee Lee }
+    - { name: Heuiseok Lim }
+
+- id: dbrag-hclt2025
+  selected: false
+  group: domestic
+  title: "Database retrieval augmented generation framework leveraging Large reasoning language models and Schema linking methods"
+  url: https://www.koreascience.kr/article/CFKO202533861229980.view?hide=breadcrumb%2Cjournalinfo&orgId=anpor
+  venue: "Annual Conference on Human and Language Technology (HCLT 2025), pp. 77-82"
+  venue_short: HCLT
+  year: 2025
+  authors:
+    - { name: Myunghoon Kang }
+    - { name: Junyoung Son, me: true }
+    - { name: Chanhee Park }
+    - { name: Aram So }
+    - { name: Heuiseok Lim }
+
+- id: kure-hclt2025
+  selected: true
+  group: domestic
+  title: "KURE: Embedding Model for Korean-Specific Retrieval"
+  url: https://www.koreascience.kr/article/CFKO202533761230731.view?hide=breadcrumb%2Cjournalinfo&orgId=anpor
+  venue: "Annual Conference on Human and Language Technology (HCLT 2025), pp. 129-134"
+  venue_short: HCLT
+  year: 2025
+  authors:
+    - { name: Youngjoon Jang }
+    - { name: Junyoung Son, me: true }
+    - { name: Taemin Lee }
+    - { name: Seongtae Hong }
+    - { name: JeongBae Park }
+    - { name: Heuiseok Lim }
+
+- id: komuret-hclt2025
+  selected: false
+  group: domestic
+  title: "KomuRet: Korean Community-style Retrieval Benchmark"
+  url: https://www.koreascience.kr/article/CFKO202533757619425.page
+  venue: "Annual Conference on Human and Language Technology (HCLT 2025), pp. 619-624"
+  venue_short: HCLT
+  year: 2025
+  authors:
+    - { name: Junyoung Son, me: true }
+    - { name: Youngjoon Jang }
+    - { name: Taemin Lee }
+    - { name: SeongTae Hong }
+    - { name: Yuna Hur }
+    - { name: Heuiseok Lim }
+
+- id: mlmner-hclt2022
+  selected: false
+  group: domestic
+  title: "An Analysis of Named Entity Recognition System using MLM-based Language Transfer Learning"
+  url: https://koreascience.kr/article/CFKO202226455345684.page
+  venue: "The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022)"
+  venue_short: HCLT
+  year: 2022
+  authors:
+    - { name: Junyoung Son, me: true }
+    - { name: Gyeongmin Kim }
+    - { name: Jinsung Kim }
+    - { name: Yuna Hur }
+    - { name: Heuiseok Lim }
+
+- id: triggergen-hclt2022
+  selected: false
+  group: domestic
+  title: "Methodology of Trigger Generation optimized for Dialogue Relation Extraction task"
+  url: https://koreascience.kr/article/CFKO202226455346651.page
+  venue: "The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022)"
+  venue_short: HCLT
+  year: 2022
+  authors:
+    - { name: Gyeongmin Kim }
+    - { name: Junyoung Son, me: true }
+    - { name: Jinsung Kim }
+    - { name: Jaechoon Jo }
+    - { name: Heuiseok Lim }
+
+- id: persona-hclt2022
+  selected: false
+  group: domestic
+  title: "A Study on Prompt-based Persona Dialogue Generation"
+  url: https://koreascience.kr/article/CFKO202226455339475.page
+  venue: "The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022)"
+  venue_short: HCLT
+  year: 2022
+  authors:
+    - { name: Yoona Jang }
+    - { name: Kisu Yang }
+    - { name: Hyeonseok Moon }
+    - { name: Jaehyung Seo }
+    - { name: Jungwoo Lim }
+    - { name: Junyoung Son, me: true }
+    - { name: Chanjun Park }
+    - { name: Kinam Park }
+    - { name: Heuiseok Lim }
+
+- id: dialoguegraph-hclt2022
+  selected: false
+  group: domestic
+  title: "Dialogue Relation Extraction using Dialogue Graph"
+  url: https://koreascience.kr/article/CFKO202226455346771.page
+  venue: "The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022)"
+  venue_short: HCLT
+  year: 2022
+  authors:
+    - { name: Jungwoo Lim }
+    - { name: Junyoung Son, me: true }
+    - { name: Jinsung Kim }
+    - { name: Yuna Hur }
+    - { name: Jaehyung Seo }
+    - { name: Yoonna Jang }
+    - { name: JeongBae Park }
+    - { name: Heuiseok Lim }
+
+- id: asrerror-hclt2021
+  selected: false
+  group: domestic
+  title: "Categorization and Analysis of Error Types in the Korean Speech Recognition System"
+  url: https://koreascience.kr/article/CFKO202130060561801.page
+  venue: "The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021)"
+  venue_short: HCLT
+  year: 2021
+  authors:
+    - { name: Junyoung Son, me: true }
+    - { name: Chanjun Park }
+    - { name: Jaehyung Seo }
+    - { name: Heuiseok Lim }
+
+- id: segmentation-hclt2021
+  selected: false
+  group: domestic
+  title: "An Effective Segmentation Scheme for Korean Sentence Classification tasks"
+  url: https://koreascience.kr/article/CFKO202130060582805.page
+  venue: "The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021)"
+  venue_short: HCLT
+  year: 2021
+  authors:
+    - { name: Jinsung Kim }
+    - { name: Gyeongmin Kim }
+    - { name: Junyoung Son, me: true }
+    - { name: Heuiseok Lim }
+
+- id: segmentation-jkcs2021
+  selected: false
+  group: domestic
+  title: "A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks"
+  url: https://koreascience.kr/article/JAKO202106361937222.page
+  venue: "Journal of the Korea Convergence Society"
+  venue_short: JKCS
+  year: 2021
+  authors:
+    - { name: Jinsung Kim }
+    - { name: Gyeongmin Kim }
+    - { name: Junyoung Son, me: true }
+    - { name: Jeongbae Park }
+    - { name: Heuiseok Lim }
+
+- id: crosslingual-arxiv2025
+  selected: false
+  group: preprint
+  title: "Improving Korean-English Cross-Lingual Retrieval: A Data-Centric Study of Language Composition and Model Merging"
+  url: https://arxiv.org/abs/2507.08480
+  venue: "arXiv, 2025"
+  venue_short: arXiv
+  year: 2025
+  authors:
+    - { name: Youngjoon Jang }
+    - { name: Junyoung Son, me: true }
+    - { name: Taemin Lee }
+    - { name: Seongtae Hong }
+    - { name: Heuiseok Lim }
