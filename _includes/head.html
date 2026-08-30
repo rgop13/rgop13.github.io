@@ -3,10 +3,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{{ site.title }}</title>
-  <meta name="description" content="Research portfolio of {{ site.author.name }}, {{ site.author.desc }}. Information Retrieval and Information Extraction.">
+  <meta name="description" content="Research portfolio of {{ site.author.name }}, {{ site.author.desc | escape }}. Information Retrieval and Information Extraction.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="Research portfolio of {{ site.author.name }}, {{ site.author.desc }}.">
+  <meta property="og:description" content="Research portfolio of {{ site.author.name }}, {{ site.author.desc | escape }}.">
   <meta property="og:url" content="{{ site.url }}/">
   <meta property="og:image" content="{{ site.url }}/{{ site.author.selfie }}">
 
@@ -14,7 +14,7 @@
   <link rel="preload" href="{{ '/assets/webfonts/stix-two-text-400i.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ '/assets/webfonts/ibm-plex-sans-var.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon.ico' | relative_url }}">
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="{{ '/assets/favicon.ico' | relative_url }}">
 
   {% if site.google_analytics %}
   <script>

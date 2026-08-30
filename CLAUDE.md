@@ -19,11 +19,11 @@ bundle exec jekyll serve  # local preview at http://localhost:4000, rebuilds on 
 bundle exec jekyll build  # one-off build into _site/
 ```
 
-No tests or linters. Local builds need Homebrew `ruby@3.3` (`export PATH="$(brew --prefix ruby@3.3)/bin:$PATH"`); `Gemfile.lock` tracks current `github-pages` (jekyll 3.10). The GitHub Pages deploy does not depend on a local build — pushing to `main` is sufficient.
+No tests or linters. Local builds need Homebrew `ruby@3.3` (`export PATH="$(brew --prefix ruby@3.3)/bin:$PATH"`); `Gemfile.lock` tracks current `github-pages` (jekyll 3.10). The GitHub Pages deploy does not depend on a local build. Pushing to `main` is sufficient.
 
 ## Architecture
 
-Jekyll site using the "AP" (About/Portfolio) career theme by kssim (see README.md), vendored directly into the repo — there is no theme gem, so all layout and style changes are made to the files below.
+Hand-written Jekyll site. It was originally derived from kssim's "AP" theme, but every theme layout, include, and stylesheet has been replaced by the 2026 redesign; only the MIT `LICENSE` file is retained from the theme. (`README.md` is still the old theme's readme.)
 
 - Content lives in `_data/publications.yml` / `_data/projects.yml` plus `index.md` front matter (hero/interests/education) with About prose as the body.
 - `_config.yml`: site/author metadata rendered by the layouts (name, affiliation, email, profile image `assets/img/profile3.jpeg`); hero links (Scholar/GitHub/LinkedIn/Email) live in `index.md` front matter.
@@ -45,4 +45,4 @@ Publications and projects are data-driven. To add or edit:
 - `_data/projects.yml`: `title` (Korean kept as-is), `period`. Newest first.
 - Hero statement/links/interests/education live in `index.md` front matter; About prose is the markdown body.
 - Design tokens (colors, fonts, spacing) live in `_sass/_tokens.scss`; fonts are self-hosted woff2 in `assets/webfonts/`.
-- Verification: `ruby scripts/check_data.rb` (data vs original content) and `ruby scripts/check_rendered.rb` (built HTML) after `jekyll build`.
+- Verification: after `jekyll build`, run `ruby scripts/check_rendered.rb` (rendered page) and `ruby scripts/check_data.rb` (data files). Both hardcode migration-time counts (20 publications = 6 intl-conference + 3 intl-journal + 10 domestic + 1 preprint; 6 selected; 8 projects), and check_data additionally diffs every entry against the pre-redesign `index.md`, so when you add or remove content, update the scripts' constants (and drop the original-content diff for new entries) before trusting a failure.

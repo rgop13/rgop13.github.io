@@ -1,4 +1,4 @@
-<section class="section" id="publications" aria-labelledby="pubs-heading">
+<section class="section" id="publications" aria-label="Publications">
   <div class="wrap">
     <h2 class="section__heading" id="pubs-heading">Selected Publications</h2>
     <ol class="pubs-selected">
@@ -31,6 +31,7 @@
         <li class="pub-row" data-reveal>
           <a class="pub-title" href="{{ pub.url }}">{{ pub.title }}</a>
           <p class="pub-row__meta">{{ pub.venue_short }}{% if pub.venue_note %} {{ pub.venue_note }}{% endif %} &middot; {{ pub.year }}</p>
+          <p class="pub-row__venue">{{ pub.venue }}</p>
           <p class="pub-authors">{% include author_line.html authors=pub.authors %}</p>
         </li>
         {% endif %}{% endfor %}
