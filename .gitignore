@@ -1,3 +1,5 @@
 # local operational state (oh-my-claudecode session artifacts)
 .omc/
 .claude/worktrees/
+vendor/
+.bundle/

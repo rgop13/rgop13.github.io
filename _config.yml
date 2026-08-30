@@ -62,3 +62,5 @@ exclude:
   - "CLAUDE.md"
   - "docs"
   - "screenshot.png"
+  - "vendor"
+  - ".bundle"
