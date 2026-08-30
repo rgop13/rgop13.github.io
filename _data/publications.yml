@@ -5,8 +5,8 @@
   url: https://aclanthology.org/2025.acl-srw.27/
   venue: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)"
   venue_short: ACL
+  venue_note: SRW
   year: 2025
-  tags: [SRW]
   authors:
     - { name: Youngjoon Jang }
     - { name: Seongtae Hong }
