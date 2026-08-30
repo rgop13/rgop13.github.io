@@ -26,10 +26,10 @@ No tests or linters. Local builds need Homebrew `ruby@3.3` (`export PATH="$(brew
 Jekyll site using the "AP" (About/Portfolio) career theme by kssim (see README.md), vendored directly into the repo — there is no theme gem, so all layout and style changes are made to the files below.
 
 - Content lives in `_data/publications.yml` / `_data/projects.yml` plus `index.md` front matter (hero/interests/education) with About prose as the body.
-- `_config.yml` — site/author metadata rendered by the layouts: name, affiliation, email, profile image (`assets/img/profile3.jpeg`), GitHub/LinkedIn handles for the social icons.
+- `_config.yml`: site/author metadata rendered by the layouts (name, affiliation, email, profile image `assets/img/profile3.jpeg`); hero links (Scholar/GitHub/LinkedIn/Email) live in `index.md` front matter.
 - Layouts are `_layouts/base.html` + `_layouts/home.html` with includes `_includes/hero.html`, `_includes/education.html`, `_includes/publications.html`, `_includes/author_line.html`, `_includes/projects.html`.
 - `_includes/head.html` (meta + stylesheet links).
-- Styling is `_sass/_tokens.scss` + flat partials (`_base.scss`, `_nav.scss`, `_hero.scss`, `_publications.scss`, `_projects.scss`, `_footer.scss`, `_motion.scss`, `_fonts.scss`). Fonts self-hosted woff2 in `assets/webfonts/` (5 files, variable-font ranges).
+- Styling is `_sass/_tokens.scss` + flat partials (`_base.scss`, `_nav.scss`, `_hero.scss`, `_publications.scss`, `_projects.scss`, `_footer.scss`, `_motion.scss`, `_fonts.scss`), all pulled in by `_sass/main.scss` (via the front-mattered entry `assets/css/main.scss`); a new partial must be added to `main.scss`'s import list or it never compiles. Fonts self-hosted woff2 in `assets/webfonts/` (5 files: 2 variable-font ranges + 3 static cuts).
 
 ### Gotchas
 
@@ -41,8 +41,8 @@ Jekyll site using the "AP" (About/Portfolio) career theme by kssim (see README.m
 
 Publications and projects are data-driven. To add or edit:
 
-- `_data/publications.yml` — one entry per paper: `id`, `group` (intl-conference | intl-journal | domestic | preprint), `title`, `url`, `venue`, `venue_short`, optional `venue_note` (e.g. Findings, SRW), `year`, optional `tags` ([oral], [award]), `authors` (list of `{name, me: true, equal: true}`; exactly one `me`). Newest first within each group. Set `selected: true` (keep it to ~6) to feature an entry in Selected Publications with its venue badge.
-- `_data/projects.yml` — `title` (Korean kept as-is), `period`. Newest first.
+- `_data/publications.yml`: one entry per paper with `id`, `group` (intl-conference | intl-journal | domestic | preprint), `title`, `url`, `venue`, `venue_short`, optional `venue_note` (e.g. Findings, SRW), `year`, optional `tags` ([oral], [award]), `authors` (list of `{name, me: true, equal: true}`; exactly one `me`). Newest first within each group. Set `selected: true` (keep it to ~6) to feature an entry in Selected Publications with its venue badge.
+- `_data/projects.yml`: `title` (Korean kept as-is), `period`. Newest first.
 - Hero statement/links/interests/education live in `index.md` front matter; About prose is the markdown body.
 - Design tokens (colors, fonts, spacing) live in `_sass/_tokens.scss`; fonts are self-hosted woff2 in `assets/webfonts/`.
 - Verification: `ruby scripts/check_data.rb` (data vs original content) and `ruby scripts/check_rendered.rb` (built HTML) after `jekyll build`.
