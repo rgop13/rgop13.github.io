@@ -1,0 +1,25 @@
+@media (prefers-reduced-motion: no-preference) {
+  .will-reveal {
+    opacity: 0;
+    transform: translateY(12px);
+    transition:
+      opacity 0.5s var(--ease-out),
+      transform 0.5s var(--ease-out);
+  }
+
+  .revealed {
+    opacity: 1;
+    transform: none;
+  }
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+
+  .hero__name { animation: rise 0.55s var(--ease-out) 0.05s backwards; }
+  .hero__statement { animation: rise 0.55s var(--ease-out) 0.12s backwards; }
+  .hero__affiliation { animation: rise 0.55s var(--ease-out) 0.19s backwards; }
+  .hero__links { animation: rise 0.55s var(--ease-out) 0.26s backwards; }
+  .hero__photo { animation: rise 0.55s var(--ease-out) 0.2s backwards; }
+}
