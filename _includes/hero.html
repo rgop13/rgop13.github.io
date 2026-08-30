@@ -1,0 +1,14 @@
+<header class="hero">
+  <div class="wrap hero__inner">
+    <div class="hero__text">
+      <h1 class="hero__name">{{ site.author.name }}</h1>
+      <p class="hero__statement">{{ page.statement_html }}</p>
+      <p class="hero__affiliation">{{ page.affiliation_html }}</p>
+      <ul class="hero__links">
+        {% for l in page.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    <img class="hero__photo" src="{{ site.author.selfie | prepend: '/' | relative_url }}"
+         alt="Portrait of {{ site.author.name }}" width="200" height="250">
+  </div>
+</header>

@@ -1,0 +1,18 @@
+---
+layout: base
+---
+{% include hero.html %}
+
+<section class="section" id="about" aria-labelledby="about-heading">
+  <div class="wrap">
+    <h2 class="section__heading" id="about-heading">About</h2>
+    <div class="prose">{{ content }}</div>
+    <ul class="chips" aria-label="Research interests">
+      {% for term in page.interests %}<li class="chip">{{ term }}</li>{% endfor %}
+    </ul>
+    {% include education.html %}
+  </div>
+</section>
+
+{% include publications.html %}
+{% include projects.html %}

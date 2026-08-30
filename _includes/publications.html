@@ -1,0 +1,41 @@
+<section class="section" id="publications" aria-labelledby="pubs-heading">
+  <div class="wrap">
+    <h2 class="section__heading" id="pubs-heading">Selected Publications</h2>
+    <ol class="pubs-selected">
+      {% for pub in site.data.publications %}{% if pub.selected %}
+      {% assign first_author = pub.authors | first %}
+      <li class="pub-card" data-reveal>
+        <div class="pub-card__badge">
+          <span class="badge-acronym">{{ pub.venue_short }}</span>
+          {% if pub.venue_note %}<span class="badge-note">{{ pub.venue_note }}</span>{% endif %}
+          {% if pub.tags contains 'oral' %}<span class="tag">Oral</span>{% endif %}
+          {% if first_author.me %}<span class="tag">1st author</span>{% endif %}
+        </div>
+        <div class="pub-card__body">
+          <a class="pub-title" href="{{ pub.url }}">{{ pub.title }}</a>
+          <p class="pub-authors">{% include author_line.html authors=pub.authors %}</p>
+        </div>
+        <span class="pub-card__year">{{ pub.year }}</span>
+      </li>
+      {% endif %}{% endfor %}
+    </ol>
+
+    <h2 class="section__heading">All Publications</h2>
+    {% assign group_keys = "intl-conference|intl-journal|domestic|preprint" | split: "|" %}
+    {% assign group_names = "International Conference|International Journal|Domestic Conference &amp; Journal|Preprint" | split: "|" %}
+    {% for gk in group_keys %}
+    <div class="pub-group">
+      <h3 class="pub-group__label">{{ group_names[forloop.index0] }}</h3>
+      <ol class="pub-group__list">
+        {% for pub in site.data.publications %}{% if pub.group == gk %}
+        <li class="pub-row" data-reveal>
+          <a class="pub-title" href="{{ pub.url }}">{{ pub.title }}</a>
+          <p class="pub-row__meta">{{ pub.venue_short }}{% if pub.venue_note %} {{ pub.venue_note }}{% endif %} &middot; {{ pub.year }}</p>
+          <p class="pub-authors">{% include author_line.html authors=pub.authors %}</p>
+        </li>
+        {% endif %}{% endfor %}
+      </ol>
+    </div>
+    {% endfor %}
+  </div>
+</section>

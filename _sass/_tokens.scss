@@ -1,0 +1,15 @@
+:root {
+  --paper: #FCFCFA;
+  --ink: #1B1B1F;
+  --ink-soft: #50505A;
+  --hairline: #E4E4E0;
+  --accent: #8E2438;
+  --accent-deep: #711C2D;
+  --radius: 2px;
+  --font-serif: 'STIX Two Text', 'Times New Roman', Times, serif;
+  --font-sans: 'IBM Plex Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Helvetica Neue', sans-serif;
+  --font-mono: 'IBM Plex Mono', Menlo, Monaco, monospace;
+  --container: 880px;
+  --section-pad: clamp(4rem, 9vh, 6.5rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}

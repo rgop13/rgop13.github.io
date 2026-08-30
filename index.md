@@ -1,158 +1,23 @@
 ---
-layout: about 
+layout: home
+statement_html: I&rsquo;m interested in <em>Information Retrieval</em> and <em>Information Extraction</em>.
+affiliation_html: Graduate student, <a href="http://nlp.korea.ac.kr/">NLP &amp; AI Lab</a>, Korea University &middot; advised by Prof. <a href="https://scholar.google.co.kr/citations?user=HMTkz7oAAAAJ&hl=ko&oi=ao">Heuiseok Lim</a>
+links:
+  - { label: Google Scholar, url: "https://scholar.google.com/citations?user=ubIxtk8AAAAJ" }
+  - { label: GitHub, url: "https://github.com/rgop13" }
+  - { label: LinkedIn, url: "https://www.linkedin.com/in/junyoung-son-2836a2183/" }
+  - { label: Email, url: "mailto:s0ny@korea.ac.kr" }
+interests:
+  - Information Extraction
+  - Information Retrieval
+  - Text Representation
+  - Data Engineering
+education:
+  - { degree: "M.S & Ph.D in Computer Science & Engineering", institution: "Korea University", period: "2021/09 ~" }
+  - { degree: "B.S in Information & Communication Engineering", institution: "Dongguk University", period: "2014/03 ~ 2021/02" }
 ---
-[//]: # (Please check my [CV]&#40;https://drive.google.com/file/d/1OIubJzknuk7bAkOjLuTYHHNBPVkzwjoe/view?usp=sharing&#41; and [Google Scholar]&#40;https://scholar.google.com/citations?user=ubIxtk8AAAAJ&hl=ko&#41;! )
-# About Me
-I'm interested in Information Extraction and Retrieval. <br /> Currently, I am a graduate student and advised by Prof. [Heuiseok Lim](https://scholar.google.co.kr/citations?user=HMTkz7oAAAAJ&hl=ko&oi=ao)  in the [NLP & AI Lab](http://nlp.korea.ac.kr/). 
+I am a graduate student in Computer Science & Engineering at Korea University, advised by Prof. [Heuiseok Lim](https://scholar.google.co.kr/citations?user=HMTkz7oAAAAJ&hl=ko&oi=ao) in the [NLP & AI Lab](http://nlp.korea.ac.kr/). My research focuses on Information Retrieval and Information Extraction.
 
 Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
-<br/>
- 
 
-# Research Interest
-* Information Extraction
-* Information Retrieval
-* Text Representation
-* Data Engineering
-<br/>
-
-# Education
-* Korea University (2021/09 ~ )
-  * M.S & Ph.D in Computer Science & Engineering
-
-* Dongguk University (2014/03 ~ 2021/02)
-  * B.S in Information & Communication Engineering
-<br/>
-
-# Publication
-
-### International Conference
-* [From Ambiguity to Accuracy: The Transformative Effect of Coreference Resolution on Retrieval-Augmented Generation systems](https://aclanthology.org/2025.acl-srw.27/) <br/>
-<span style="color:rgb(73, 120, 173)"> Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop) </span> <br/>
-Youngjoon Jang, Seongtae Hong, **Junyoung Son**, Sungjin Park, Chanjun Park, and Heuiseok Lim
-<br/>
-* [Hyper-BTS Dataset: Scalability and Enhanced Analysis of Back TranScription (BTS) for ASR Post-Processing](https://aclanthology.org/2024.findings-eacl.5/) <br/> 
-<span style="color:rgb(73, 120, 173)"> Findings of the Association for Computational Linguistics: EACL 2024 </span> <br/> 
-Chanjun Park, Jaehyung Seo, Seolhwa Lee, **Junyoung Son**, Hyeonseok Moon, Sugyeong Eo, Chanhee Lee, Heuiseok Lim   
-<br/> 
-* [Post-hoc Utterance Refining Method by Entity Mining for Faithful Knowledge Grounded Conversations](https://aclanthology.org/2023.emnlp-main.295/) <br/> 
-<span style="color:rgb(73, 120, 173)"> The 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) </span> <br/> 
-Yoonna Jang[\*], Suhyune Son[\*], Jeongwoo Lee[\*], **Junyoung Son**, Yuna Hur, Jungwoo Lim, Hyeonseok Moon, Kisu Yang, Heuiseok Lim (*: equal contributions)   
-<br/> 
-* [Explore the Way: Exploring Reasoning Path by Bridging Entities for Effective Cross-Document Relation Extraction](https://aclanthology.org/2023.findings-emnlp.450/) <br/> 
-<span style="color:rgb(73, 120, 173)"> Findings of the Association for Computational Linguistics: EMNLP 2023 (EMNLP 2023 findings) </span> <br/> 
-**Junyoung Son**, Jinsung Kim, Jungwoo Lim, Yoonna Jang, Heuiseok Lim  
-<br/> 
-* [GRASP: Guiding model with RelAtional Semantics using Prompt](https://aclanthology.org/2022.coling-1.33/) (**Oral Presentation**) <br/> 
-<span style="color:rgb(73, 120, 173)"> The 29th International Conference on Computational Linguistics (COLING 2022) </span> <br/> 
-**Junyoung Son[\*]**, Jinsung Kim[\*], Jungwoo Lim[\*], Heuiseok Lim (*: equal contributions)   
-<br/> 
-* [KoCHET: a Korean Cultural Heritage corpus for Entity-related Tasks](https://aclanthology.org/2022.coling-1.308/) <br/> 
-<span style="color:rgb(73, 120, 173)"> The 29th International Conference on Computational Linguistics (COLING 2022) </span> <br/> 
-Gyungmin Kim[\*], Jinsung Kim[\*], **Junyoung Son[\*]**, Heuiseok Lim (*: equal contributions)
-<br/>
-
-### International Journal
-* [Prompt Language Learner with Trigger Generation for Dialogue Relation Extraction](https://www.mdpi.com/2076-3417/13/22/12414) <br/> 
-<span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 10, pp. 59205-59218, 2022 </span> <br/> 
-Jinsung Kim, Gyeongmin Kim, Junyoung Son, and Heuiseok Lim   
-<br/> 
-* [AI for Patents: A Novel yet Effective and Efficient Framework for Patent Analysis](https://ieeexplore.ieee.org/document/9779775) <br/> 
-<span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 10, pp. 59205-59218, 2022 </span> <br/> 
-**Junyoung Son**, Hyeonseok Moon, Jeongwoo Lee, Seolhwa Lee, Chanjun Park, Wonkyung Jung and Heuiseok Lim   
-<br/> 
-* [Enhancing Korean Named Entity Recognition With Linguistic Tokenization Strategies](https://ieeexplore.ieee.org/document/9610031) <br/> 
-<span style="color:rgb(73, 120, 173)"> IEEE Access, vol. 9, pp. 151814-151823, 2021 </span> <br/> 
-Gyeongmin Kim[\*], **Junyoung Son[\*]**, Jinsung Kim[\*], Hyunhee Lee, and Heuiseok Lim (*: equal contributions) 
-<br/>
-
-### Domestic Conference
-* [Database retrieval augmented generation framework leveraging Large reasoning language models and Schema linking methods](https://www.koreascience.kr/article/CFKO202533861229980.view?hide=breadcrumb%2Cjournalinfo&orgId=anpor) <br/>
-  <span style="color:rgb(73, 120, 173)"> Annual Conference on Human and Language Technology (HCLT 2025), pp. 77-82 </span> <br/>
-  Myunghoon Kang, **Junyoung Son**, Chanhee Park, Aram So, and Heuiseok Lim
-<br/>
-<br/>
-* [KURE: Embedding Model for Korean-Specific Retrieval](https://www.koreascience.kr/article/CFKO202533761230731.view?hide=breadcrumb%2Cjournalinfo&orgId=anpor) <br/>
-  <span style="color:rgb(73, 120, 173)"> Annual Conference on Human and Language Technology (HCLT 2025), pp. 129-134 </span> <br/>
-  Youngjoon Jang, **Junyoung Son**, Taemin Lee, Seongtae Hong, JeongBae Park, and Heuiseok Lim
-<br/>
-<br/>
-* [KomuRet: Korean Community-style Retrieval Benchmark](https://www.koreascience.kr/article/CFKO202533757619425.page) <br/>
-  <span style="color:rgb(73, 120, 173)"> Annual Conference on Human and Language Technology (HCLT 2025), pp. 619-624 </span> <br/>
-  **Junyoung Son**, Youngjoon Jang, Taemin Lee, SeongTae Hong, Yuna Hur, and Heuiseok Lim
-<br/>
-* [An Analysis of Named Entity Recognition System using MLM-based Language Transfer Learning](https://koreascience.kr/article/CFKO202226455345684.page) <br/>
-  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
-  **Junyoung Son**, Gyeongmin Kim, Jinsung Kim, Yuna Hur, and Heuiseok Lim
-<br/>
-<br/>
-* [Methodology of Trigger Generation optimized for Dialogue Relation Extraction task](https://koreascience.kr/article/CFKO202226455346651.page) <br/>
-  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
-  Gyeongmin Kim, **Junyoung Son**, Jinsung Kim, Jaechoon Jo, and Heuiseok Lim
-<br/>
-<br/>
-* [A Study on Prompt-based Persona Dialogue Generation](https://koreascience.kr/article/CFKO202226455339475.page) <br/>
-  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
-  Yoona Jang, Kisu Yang, Hyeonseok Moon, Jaehyung Seo, Jungwoo Lim, **Junyoung Son**, Chanjun Park, Kinam Park, and Heuiseok Lim
-<br/>
-<br/>
-* [Dialogue Relation Extraction using Dialogue Graph](https://koreascience.kr/article/CFKO202226455346771.page) <br/>
-  <span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2022) </span> <br/>
- Jungwoo Lim, **Junyoung Son**, Jinsung Kim, Yuna Hur, Jaehyung Seo, Yoonna Jang, JeongBae Park, and Heuiseok Lim
-<br/>
-<br/>
-* [Categorization and Analysis of Error Types in the Korean Speech Recognition System](https://koreascience.kr/article/CFKO202130060561801.page) <br/> 
-<span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
-**Junyoung Son**, Chanjun Park, Jaehyung Seo, and Heuiseok Lim 
-<br/>
-<br/>
-* [An Effective Segmentation Scheme for Korean Sentence Classification tasks](https://koreascience.kr/article/CFKO202130060582805.page) <br/> 
-<span style="color:rgb(73, 120, 173)"> The 33rd Annual Conference on Human & Cognitive Language Technology (HCLT 2021) </span> <br/>
-Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, and Heuiseok Lim
-
-
-### Domestic Journal
-* [A Comparative study on the Effectiveness of Segmentation Strategies for Korean Word and Sentence Classification tasks](https://koreascience.kr/article/JAKO202106361937222.page) <br/> 
-<span style="color:rgb(73, 120, 173)"> Journal of the Korea Convergence Society </span> <br/>
-Jinsung Kim, Gyeongmin Kim, **Junyoung Son**, Jeongbae Park, and Heuiseok Lim
-
-
-### Preprint
-* [Improving Korean-English Cross-Lingual Retrieval: A Data-Centric Study of Language Composition and Model Merging](https://arxiv.org/abs/2507.08480) <br/>
-<span style="color:rgb(73, 120, 173)"> arXiv, 2025 </span> <br/>
-Youngjoon Jang, **Junyoung Son**, Taemin Lee, Seongtae Hong, and Heuiseok Lim
-<br/>
-
-
-### Project
-* **실감형 문화유산 체험을 위한 애셋 기반 지능형 큐레이션 및 서비스 운영기술 개발: 지식 기반 관계 네트워크 생성을 위한 텍스트 마이닝 연구** <br/>
-  Participation Period: 2021.04.01 ~ 2022.12.31
-<br/>
-<br/>
-* **전문지식 대상 판단결과의 이유/근거를 설명가능한 전문가 의사 결정 지원 인공지능 기술개발: 기관 PM** <br/>
-  Participation Period: 2021.04 ~ Present
-<br/>
-<br/>
-* **특허 문서의 발명 목적 문장 추출 및 Key phrase 추출 기술 개발** <br/>
-  Participation Period: 2021.06.01 ~ 2021.10.31
-<br/>
-<br/>
-* **삼성 모바일 제품 디자인 분석 기술 개발** <br/>
-  Participation Period: 2022.08 ~ 2022.12
-<br/>
-<br/>
-* **영화 추천시스템 개발을 위한 메타데이터 증강 및 구조화 기술 개발** <br/>
-  Participation Period: 2023.02 ~ 2023.05
-<br/>
-<br/>
-* **벡터 임베딩 구축과 유사도 검색 원천기술 개발** <br/>
-  Participation Period: 2024.01.01 ~ 2024.12.31
-<br/>
-<br/>
-* **KURE: Korea University Retrieval Embedding Model 개발** <br/>
-  Participation Period: 2024.08 ~ 2024.12
-<br/>
-<br/>
-* **독자 AI 파운데이션 모델 프로젝트: NCAI팀 데이터 리더** <br/>
-  Participation Period: 2025.08.01 ~ 2025.12.31
-<br/>
+[//]: # (Please check my [CV]&#40;https://drive.google.com/file/d/1OIubJzknuk7bAkOjLuTYHHNBPVkzwjoe/view?usp=sharing&#41; and [Google Scholar]&#40;https://scholar.google.com/citations?user=ubIxtk8AAAAJ&hl=ko&#41;! )

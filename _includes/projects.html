@@ -1,0 +1,13 @@
+<section class="section" id="projects" aria-labelledby="projects-heading">
+  <div class="wrap">
+    <h2 class="section__heading" id="projects-heading">Projects</h2>
+    <ul class="proj-grid">
+      {% for p in site.data.projects %}
+      <li class="proj-card" data-reveal>
+        <p class="proj-card__title">{{ p.title }}</p>
+        <p class="proj-card__period">{{ p.period }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

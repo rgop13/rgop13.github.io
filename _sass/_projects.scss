@@ -1,0 +1,30 @@
+.proj-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.proj-card {
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem;
+}
+
+.proj-card__title {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.7rem;
+}
+
+.proj-card__period {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .proj-grid { grid-template-columns: 1fr; }
+}

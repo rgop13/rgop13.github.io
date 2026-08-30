@@ -1,0 +1,116 @@
+.pubs-selected { margin-bottom: 1rem; }
+
+.pub-card {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr auto;
+  gap: 1.5rem;
+  padding-block: 1.4rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.pub-card__badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.badge-acronym {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.badge-note {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 0.1rem 0.45rem;
+}
+
+.pub-title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.45rem;
+}
+
+.pub-title:hover { color: var(--accent); }
+
+.pub-authors {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 0;
+
+  .me { color: var(--ink); font-weight: 600; }
+
+  .equal-note { font-size: 0.8rem; }
+}
+
+.pub-card__year {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  padding-top: 0.2rem;
+}
+
+.pub-group { margin-bottom: 2.5rem; }
+
+.pub-group__label {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin-bottom: 0.4rem;
+}
+
+.pub-row {
+  padding-block: 1.1rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.pub-row__meta {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin: 0 0 0.35rem;
+}
+
+@media (max-width: 639px) {
+  .pub-card {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .pub-card__badge {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .pub-card__year { padding-top: 0; }
+}

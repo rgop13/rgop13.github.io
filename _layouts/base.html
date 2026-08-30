@@ -4,26 +4,25 @@
   {% include head.html %}
 
   <body>
-    <nav class="nav">
-      <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
-        <ul>
-          <li><a href="{{ '/' | prepend: site.baseurl }}">About</a></li>
-          <li><a href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a></li>
+    <nav class="site-nav" aria-label="Site">
+      <div class="wrap site-nav__inner">
+        <a class="site-nav__name" href="#top">{{ site.title }}</a>
+        <ul class="site-nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
 
-    <main>
+    <main id="top">
       {{ content }}
     </main>
 
-    <footer>
-      <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. <a href="https://github.com/kssim/about-portfolio/">A.P</a> theme by kssim.
-      </span>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      </div>
     </footer>
   </body>
 </html>

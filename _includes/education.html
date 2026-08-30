@@ -1,0 +1,9 @@
+<dl class="edu">
+  {% for e in page.education %}
+  <div class="edu__row">
+    <dt class="edu__degree">{{ e.degree }}</dt>
+    <dd class="edu__inst">{{ e.institution }}</dd>
+    <dd class="edu__period">{{ e.period }}</dd>
+  </div>
+  {% endfor %}
+</dl>
