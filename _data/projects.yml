@@ -10,12 +10,12 @@
 
 - title: "독자 AI 파운데이션 모델 프로젝트"
   period: "2025.08.01 ~ 2025.12.31"
-  role: "데이터 팀 리더"
-  purpose: "독자 AI 파운데이션 모델 학습을 위한 SFT 및 RL 데이터 구축과 품질 관리"
+  role: "데이터 팀 리더 · 학습 데이터 전략 및 Quality Control 총괄"
+  purpose: "독자 AI 파운데이션 모델의 한국어·한국 문화 이해, 추론 및 안전성을 강화하는 Mid-training·SFT·RL 데이터 전략과 품질 관리 체계 구축"
   overview: |
-    데이터 팀을 이끌며 SFT 및 RL 학습 데이터 구축 전반과 Quality Control을 총괄했습니다.
+    데이터 팀 리더로서 Mid-training, SFT, RL 단계별 데이터 요구사항과 검수 기준을 정의하고, 데이터 소스 조사·가공·평가 업무를 조직해 수백만 건 규모의 구축 파이프라인을 운영했습니다. 도메인·난이도·Clarity에 기반한 데이터 구성과 번역·멀티턴 확장을 통해 한국어·한국 문화, 고난도 추론, Safety 데이터를 균형 있게 확보했습니다. 질의·응답의 정확성, 추론 일관성, 언어 품질, 유해성 및 데이터 누수를 점검하는 자동 평가와 인간 검수 체계를 설계해 학습 적합성과 품질을 관리했습니다.
   learnings: []
-  stack: ["Large Language Models", "SFT", "RL", "Data Curation", "Data Quality"]
+  stack: ["Large Language Models", "Mid-training", "SFT", "RL", "Data Curation", "Quality Control", "Reward Modeling", "Safety Alignment"]
   links:
     - { label: "프로젝트 소개", url: "https://nc-ai.com/en/newsroom/press/ai-nc-ai-ai" }
     - { label: "고려대 참여 기사", url: "https://www.korea.ac.kr/bbs/ko/42/120917/artclView.do" }
