@@ -19,6 +19,8 @@ bundle exec jekyll serve  # local preview at http://localhost:4000, rebuilds on 
 bundle exec jekyll build  # one-off build into _site/
 ```
 
+CV export: `bundle exec ruby scripts/build_cv.rb` regenerates `_cv/JunyoungSon_CV.{md,html,pdf}` (A4) from the same data files the site uses; PDF printing needs Playwright Chromium (`npx playwright install chromium`). The PDF deliberately uses static IBM Plex Sans KR / Plex Serif (downloaded once into `_cv/fonts/`) instead of the site's variable fonts: variable and macOS system Hangul fonts embed as Type 3, which garbles text extraction by hiring/ATS systems (check with `pdffonts`, expect CID TrueType). `_cv/` is git-ignored and, being underscore-prefixed, never published.
+
 No tests or linters. Local builds need Homebrew `ruby@3.3` (`export PATH="$(brew --prefix ruby@3.3)/bin:$PATH"`); `Gemfile.lock` tracks current `github-pages` (jekyll 3.10). The GitHub Pages deploy does not depend on a local build. Pushing to `main` is sufficient.
 
 ## Architecture

@@ -6,3 +6,5 @@ vendor/
 _site/
 # private project source documents (reports, proposals); this repo is public
 _data_sources/
+# generated CV (scripts/build_cv.rb); regenerate instead of committing
+_cv/
