@@ -5,9 +5,11 @@ pubs = YAML.load_file('_data/publications.yml')
 projects = YAML.load_file('_data/projects.yml')
 fails = []
 
-fails << "pub-title count != 26 (6 selected + 20 all)" unless html.scan('class="pub-title"').size == 26
+selected_count = pubs.count { |p| p['selected'] }
+expected_title_count = pubs.size + selected_count
+fails << "pub-title count != #{expected_title_count}" unless html.scan('class="pub-title"').size == expected_title_count
 fails << "proj-card count != 8" unless html.scan('class="proj-card"').size == 8
-fails << "pub-card (selected) count != 6" unless html.scan('class="pub-card"').size == 6
+fails << "pub-card (selected) count != #{selected_count}" unless html.scan('class="pub-card"').size == selected_count
 pubs.each { |p| fails << "url missing in html: #{p['id']}" unless html.include?(p['url']) }
 projects.each { |p| fails << "project missing: #{p['title'][0, 20]}" unless html.include?(p['title']) }
 %w[about publications projects].each { |id| fails << "missing section ##{id}" unless html.include?("id=\"#{id}\"") }

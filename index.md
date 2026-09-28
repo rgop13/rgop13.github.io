@@ -1,6 +1,6 @@
 ---
 layout: home
-statement_html: I&rsquo;m interested in <em>Information Retrieval</em> and <em>Information Extraction</em>.
+statement_html: I&rsquo;m interested in <em>Information Retrieval</em>, <em>Information Extraction</em>, and <em>Knowledge-Grounded Dialogue</em>.
 affiliation_html: Graduate student, <a href="http://nlp.korea.ac.kr/">NLP &amp; AI Lab</a>, Korea University &middot; advised by Prof. <a href="https://scholar.google.co.kr/citations?user=HMTkz7oAAAAJ&hl=ko&oi=ao">Heuiseok Lim</a>
 links:
   - { label: Google Scholar, url: "https://scholar.google.com/citations?user=ubIxtk8AAAAJ" }
@@ -10,13 +10,14 @@ links:
 interests:
   - Information Extraction
   - Information Retrieval
+  - Knowledge-Grounded Dialogue
   - Text Representation
   - Data Engineering
 education:
   - { degree: "M.S & Ph.D in Computer Science & Engineering", institution: "Korea University", period: "2021/09 ~" }
   - { degree: "B.S in Information & Communication Engineering", institution: "Dongguk University", period: "2014/03 ~ 2021/02" }
 ---
-I am a graduate student in Computer Science & Engineering at Korea University, advised by Prof. [Heuiseok Lim](https://scholar.google.co.kr/citations?user=HMTkz7oAAAAJ&hl=ko&oi=ao) in the [NLP & AI Lab](http://nlp.korea.ac.kr/). My research focuses on Information Retrieval and Information Extraction.
+I am a graduate student in Computer Science & Engineering at Korea University, advised by Prof. [Heuiseok Lim](https://scholar.google.co.kr/citations?user=HMTkz7oAAAAJ&hl=ko&oi=ao) in the [NLP & AI Lab](http://nlp.korea.ac.kr/). My research focuses on Information Retrieval, Information Extraction, and Knowledge-Grounded Dialogue.
 
 Contact: s0ny@korea.ac.kr / fnrnslwma@gmail.com
 

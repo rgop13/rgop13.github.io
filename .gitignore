@@ -4,3 +4,5 @@
 vendor/
 .bundle/
 _site/
+# private project source documents (reports, proposals); this repo is public
+_data_sources/

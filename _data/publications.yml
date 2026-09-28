@@ -1,3 +1,24 @@
+- id: dart-emnlp2026
+  selected: true
+  group: intl-conference
+  title: "DART: Draft-Agreement Routing for Training-Free Adaptive Thinking Budgets in Hybrid Reasoning Models"
+  url: https://arxiv.org/abs/2606.23181
+  venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  venue_short: EMNLP
+  venue_note: Findings
+  year: 2026
+  authors:
+    - { name: Jungseob Lee }
+    - { name: Seongtae Hong }
+    - { name: Seungjun Lee }
+    - { name: Jaehyung Seo }
+    - { name: Junyoung Son, me: true }
+    - { name: Sugyeong Eo }
+    - { name: Chanjun Park }
+    - { name: Hyeongju Park }
+    - { name: Hyeonseok Moon }
+    - { name: Heuiseok Lim }
+
 - id: coref-rag-acl2025
   selected: true
   group: intl-conference
@@ -142,6 +163,20 @@
     - { name: Junyoung Son, me: true, equal: true }
     - { name: Jinsung Kim, equal: true }
     - { name: Hyunhee Lee }
+    - { name: Heuiseok Lim }
+
+- id: kolivesqlbench-hclt2026
+  selected: true
+  group: domestic
+  title: "한국어 데이터베이스 에이전트 평가: 질의의 도메인 용어 명시성과 언어 환경의 영향"
+  url: https://sites.google.com/view/hclt2026/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8
+  venue: "The 38th Annual Conference on Human and Language Technology (HCLT 2026)"
+  venue_short: HCLT
+  year: 2026
+  authors:
+    - { name: Junyoung Son, me: true }
+    - { name: Myunghoon Kang }
+    - { name: Kinam Park }
     - { name: Heuiseok Lim }
 
 - id: dbrag-hclt2025
